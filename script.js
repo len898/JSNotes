@@ -46,3 +46,11 @@ string`;
 //Template strings support interpolation
 let newName = "Marielle";
 console.log(`I am friends with ${newName}`);
+
+//Exercide
+function capitalize(word){
+    return word[0].toUpperCase() + word.substring(1).toLowerCase();
+}
+
+let weirdName = "heLIos";
+console.log(capitalize(weirdName));
