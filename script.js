@@ -81,13 +81,26 @@ console.log(Math.ceil(2.8));
 let num10 = 10;
 const lang = "German";
 
-if(num10 === 10){
-    return true;
-}
-else{
-    return false;
-}
+// if(num10 === 10){
+//     return true;
+// }
+// else{
+//     return false;
+// }
 
 //=== 3 equals is better because it checks type and value
 
 //Arrays
+
+const users = ["Lenni", "test"]; //Const only means the data type stays an array can still change/append vals
+console.log(users.length);
+console.log(users[1]);
+console.log(users.at(-1));
+users.push("Another Name"); //Push returns new length, and appends item
+console.log(users.at(2));
+
+//Looping over arrays
+users.forEach(function(user){
+    console.log(user);
+});
+//Above is a callback function, the function(user) get called for every user in users
