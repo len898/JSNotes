@@ -54,3 +54,40 @@ function capitalize(word){
 
 let weirdName = "heLIos";
 console.log(capitalize(weirdName));
+
+let num1 = 1_000;
+let num2 = 10_00;
+
+
+//Can Convert number to string
+console.log(num1.toString() + " is the  answer");
+
+//Nan equals not a number
+
+//Can use parseInt to go from string to number
+//Second parameter is the base you want to convert into
+let stringNum = "45";
+console.log(Number.parseInt(stringNum, 10));
+
+//Modulo does remainder as expected
+console.log(10%3) //=1
+
+//Math object has some important methods
+console.log(Math.round(3.3));
+console.log(Math.floor(2.3));
+console.log(Math.ceil(2.8));
+
+//Variables with let or const
+let num10 = 10;
+const lang = "German";
+
+if(num10 === 10){
+    return true;
+}
+else{
+    return false;
+}
+
+//=== 3 equals is better because it checks type and value
+
+//Arrays
